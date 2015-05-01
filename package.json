@@ -1,0 +1,22 @@
+{
+  "name": "puresec-handler-mail",
+  "version": "0.0.1",
+  "description": "Mailing notification",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msch4/puresec-handler-mail.git"
+  },
+  "author": "Martin Scheidweiler",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/msch4/puresec-handler-mail/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "~4.12.3"
+  }
+}
