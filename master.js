@@ -4,7 +4,7 @@ var register = function(url, urlMaster, registrationInterval) {
     console.log("\nregistering at '%s' ..", urlMaster);
 
     request({
-        uri: urlMaster + "/alarm/register/trigger",
+        uri: urlMaster + "/alarm/register/handler",
         method: "POST",
         form: {
             name: "Mail Handler",
